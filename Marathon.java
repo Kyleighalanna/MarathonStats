@@ -1,26 +1,3 @@
-/* This was fun!
-Name: Kyleigh McCarthy
-Class: CSC 210- 06
-Semester: Fall 2021
-Assignment: Project3
-Changes I made(ways I deviated from instructions):
--I named the file & main class "Marathon" instead of "SFMarathon" because I created
-    the file & class and started the program before seeing the given program
-    skeleton that stated the suggested class name.
--Appended an "s" to fastestRunner method, just made more sense to me since it
-    prints out fastest 3, rather than fastest 1.
--Passed in both int arrays to fastestRunner, instead of just one int and one String,
-    so that whenever we swap positions in one array, we can swap in all arrays in
-    order to keep them all consistent.
--Added 5 additional swap functions, also for the purpose of keeping the order
-    consistent between arrays:
-        1. swapFirstMin to swap the minutes of the first runner (not just name)
-        2. swapSecond to swap the name of second place runner
-        3. swapSecondMin to swap the minutes of second place runner
-        4. swapThird to swap the name of third place runner
-        5. swapThirdMin to swap the minutes of third place runner
- */
-
 public class Marathon {
     //************************ MAIN METHOD *************************
     public static void main(String[] args){
